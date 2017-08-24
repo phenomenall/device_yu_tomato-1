@@ -103,7 +103,6 @@
             64 - Volume keys
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-   
  <!-- integer name="config_deviceHardwareKeys">71</integer -->
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
@@ -120,6 +119,7 @@
          config to 7. -->
     <!-- integer name="config_deviceHardwareWakeKeys">64</integer -->
 
+
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
             1 - Menu key
@@ -131,6 +131,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     -->
     <!-- integer name="config_longPressOnHomeBehavior">3</integer -->
+
 
     <!-- Control the behavior when the user long presses the menu button.
             0 - Nothing
@@ -171,6 +172,7 @@
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <!-- bool name="config_intrusiveNotificationLed">true</bool -->
+
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
