@@ -1,5 +1,6 @@
 # Wifi
 PRODUCT_PACKAGES += \
+    libwifi-hal-qcom \
     libwcnss_qmi
 
 PRODUCT_COPY_FILES += \
