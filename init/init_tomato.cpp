@@ -34,10 +34,15 @@
 #include "property_service.h"
 #include "log.h"
 #include "util.h"
-
+#include <android-base/properties.h>
 #include "init_msm8916.h"
 
 static int display_density = 320;
+
+using android::base::GetProperty;
+using android::init::property_set;
+using android::init::import_kernel_cmdline;
+
 
 static void import_cmdline(const std::string& key,
         const std::string& value, bool for_emulator __attribute__((unused)))
