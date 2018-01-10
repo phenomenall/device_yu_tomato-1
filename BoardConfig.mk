@@ -22,3 +22,7 @@ TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
+
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8916
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8916
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8916
