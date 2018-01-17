@@ -52,3 +52,7 @@ libhealthd.cm
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0
+    
+#Maintainer 
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.aos.maintainer=AshishSharma
