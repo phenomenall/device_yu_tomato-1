@@ -17,7 +17,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),tomato)
 include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := NexusLauncher
@@ -37,3 +36,5 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
+
+endif
