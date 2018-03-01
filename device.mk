@@ -56,3 +56,9 @@ PRODUCT_PACKAGES += \
 #Maintainer 
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.aos.maintainer=AshishSharma
+
+# OTA Configs
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ota.romname=Atomic-OS \
+ro.ota.version=$(shell date +"%Y%m%d") \
+ro.ota.manifest= https://raw.githubusercontent.com/TeamDarkness-Devices/ota_devices/master/tomato.xml
