@@ -1,0 +1,10 @@
+TARGET_POWER_GESTURE_FILE := device/yu/tomato/power/gestures.c
+TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
+TARGET_DRAW_O_NODE := "/proc/touchpanel/letter_o_enable"
+TARGET_DRAW_O_NODE := "/proc/touchpanel/letter_m_enable"
+TARGET_DRAW_O_NODE := "/proc/touchpanel/letter_w_enable"
+TARGET_ONE_FINGER_SWIPE_UP_NODE := "/proc/touchpanel/up_swipe_enable"
+TARGET_ONE_FINGER_SWIPE_DOWN_NODE := "/proc/touchpanel/down_swipe_enable"
+TARGET_ONE_FINGER_SWIPE_LEFT_NODE := "/proc/touchpanel/left_swipe_enable"
+TARGET_ONE_FINGER_SWIPE_RIGHT_NODE := "/proc/touchpanel/right_swipe_enable"
+TARGET_TWO_FINGER_SWIPE_NODE := "/proc/touchpanel/double_swipe_enable"

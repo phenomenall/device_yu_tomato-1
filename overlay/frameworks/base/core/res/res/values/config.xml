@@ -224,4 +224,33 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <bool name="config_enableKeyHandler">true</bool>
+
+    <!-- Keycodes of gestures. If the gesture is not supported set it to 0. -->
+    <integer name="config_drawOKeyCode">253</integer>
+    <integer name="config_drawWKeyCode">0</integer>
+    <integer name="config_drawMKeyCode">0</integer>
+    <integer name="config_oneFingerSwipeRightKeyCode">251</integer>
+    <integer name="config_oneFingerSwipeLeftKeyCode">250</integer>
+    <integer name="config_oneFingerSwipeDownKeyCode">249</integer>
+    <integer name="config_oneFingerSwipeUpKeyCode">254</integer>
+
+    <!-- Default settings for gestures
+            0 - Disabled
+            1 - Wake device
+            2 - Toggle flashlight
+            3 - Toggle airplane mode
+            4 - Play/Pause music
+            5 - Next music
+            6 - Previous music
+            7 - Open camera
+            8 - Open dialer -->
+
+    <integer name="config_drawODefault">2</integer>
+    <integer name="config_drawMDefault">7</integer>
+    <integer name="config_drawWDefault">7</integer>
+    <integer name="config_oneFingerSwipeUpDefault">8</integer>
+    <integer name="config_oneFingerSwipeRightDefault">6</integer>
+    <integer name="config_oneFingerSwipeDownDefault">4</integer>
+    <integer name="config_oneFingerSwipeLeftDefault">5</integer>
 </resources>
