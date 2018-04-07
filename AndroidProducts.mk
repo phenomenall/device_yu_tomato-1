@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aos_tomato.mk
+    $(LOCAL_DIR)/aim_tomato.mk
