@@ -35,13 +35,6 @@ PRODUCT_PACKAGES +=\
 MiXplorer \
 NexusLauncher
 
-PRODUCT_COPY_FILES +=\
- $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass.so:/system/app/MusicPlayer/lib/arm/libbass.so \
- $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassflac.so:/system/app/MusicPlayer/lib/arm/libbassflac.so \
- $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_fx.so:/system/app/MusicPlayer/lib/arm/libbass_fx.so \
- $(LOCAL_PATH)/yl_params/extra/lib/arm/libbassmix.so:/system/app/MusicPlayer/lib/arm/libbassmix.so \
- $(LOCAL_PATH)/yl_params/extra/lib/arm/libbass_aac.so:/system/app/MusicPlayer/lib/arm/libbass_aac.so
-
 # Healthd packages
 PRODUCT_PACKAGES += \
 cm_charger_res_images \
@@ -51,13 +44,9 @@ libhealthd.cm
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0
-    
-#Maintainer 
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.aos.maintainer=AshishSharma
 
-# OTA Configs
+#AIM OTA config
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.ota.romname=Atomic-OS \
+ro.ota.romname=AIM-ROM \
 ro.ota.version=$(shell date +"%Y%m%d") \
-ro.ota.manifest= https://raw.githubusercontent.com/TeamDarkness-Devices/ota_devices/master/tomato.xml
+ro.ota.manifest=https://raw.githubusercontent.com/AIMROM/OFFICIAL_DEVICES/N/tomato.xml
