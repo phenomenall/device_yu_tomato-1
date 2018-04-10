@@ -1,1 +1,1 @@
-add_lunch_combo nitrogen_tomato-userdebug
+add_lunch_combo liquid_tomato-userdebug

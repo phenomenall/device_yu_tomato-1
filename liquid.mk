@@ -15,15 +15,11 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/nitrogen/products/common.mk)
-
-# PixelStyle
-$(call inherit-product, vendor/pixelstyle/config.mk)
-
+$(call inherit-product, vendor/liquid/config/common.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-PRODUCT_NAME := nitrogen_tomato
+PRODUCT_NAME := liquid_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
