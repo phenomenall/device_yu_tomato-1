@@ -124,6 +124,13 @@ endif
 # Widevine
 BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
 
+# Shims
+TARGET_LD_SHIM_LIBS += \
+    /system/vendor/lib64/lib-imsdpl.so|libshims_boringssl.so \
+    /system/vendor/lib64/lib-imscamera.so|libshims_camera.so \
+    /system/vendor/lib64/lib-imsvt.so|libshims_ims.so \
+
+
 #WIFI
 # Wifi CONFIG_EAP_PROXY := qmi
 #CONFIG_EAP_PROXY_DUAL_SIM := true

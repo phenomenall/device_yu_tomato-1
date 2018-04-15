@@ -264,3 +264,8 @@ PRODUCT_PACKAGES +=\
 MiXplorer \
 FMRadio
 
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_boringssl \
+    libshims_camera \
+    libshims_ims
