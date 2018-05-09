@@ -15,7 +15,7 @@
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/liquid/config/common.mk)
+$(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
@@ -23,12 +23,10 @@ PRODUCT_NAME := liquid_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
-TARGET_ARCH := arm64
-TARGET_DENSITY := xxhdpi
-IS_PHONE := true
-TARGET_BOOT_ANIMATION_RES := 720
-
 PRODUCT_GMS_CLIENTID_BASE := android-micromax
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Phenomenall (venkysai)"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="YUREKA-user 5.1.1 LMY49J YOG4PAS8A4 release-keys" \
