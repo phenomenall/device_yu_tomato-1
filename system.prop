@@ -6,6 +6,14 @@ persist.vendor.audio.fluence.speaker=false
 # Camera
 persist.camera.cpp.duplication=false 
 persist.camera.hal.debug.mask=0
+
+# Play store
+ro.com.google.clientidbase=android-micromax
+ro.com.google.clientidbase.am=android-micromax
+ro.com.google.clientidbase.gmm=android-micromax
+ro.com.google.clientidbase.ms=android-micromax
+ro.com.google.clientidbase.yt=android-micromax
+
 # Radio
 persist.data.target=dpm1 
 persist.radio.multisim.config=dsds 
