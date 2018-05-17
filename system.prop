@@ -17,4 +17,6 @@ ro.telephony.default_network=9,9
 #Boot
 ro.build.shutdown_timeout=0
 sys.vendor.shutdown.waittime=500
-
+# Power Manager
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=1
