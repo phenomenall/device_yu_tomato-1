@@ -24,6 +24,10 @@ PRODUCT_NAME := lineage_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2016-05-01
+
 PRODUCT_GMS_CLIENTID_BASE := android-micromax
 # Boot Animation Res
 TARGET_BOOT_ANIMATION_RES := 720
