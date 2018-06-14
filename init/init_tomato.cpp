@@ -57,6 +57,8 @@ static void import_cmdline(const std::string& key,
 void init_target_properties()
 {
 
+    std::string device;
+
     char density[5];
     import_kernel_cmdline(0, import_cmdline);
     snprintf(density, sizeof(density), "%d", display_density);
