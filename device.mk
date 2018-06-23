@@ -37,5 +37,4 @@ $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
 
 PRODUCT_PACKAGES +=\
 MiXplorer \
-FMRadio \
-Markup
+FMRadio
