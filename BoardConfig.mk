@@ -26,3 +26,7 @@ include vendor/yu/tomato/BoardConfigVendor.mk
 TARGET_QCOM_DISPLAY_VARIANT := caf-msm8916
 TARGET_QCOM_AUDIO_VARIANT := caf-msm8916
 TARGET_QCOM_MEDIA_VARIANT := caf-msm8916
+
+# Properties
+TARGET_SYSTEM_PROP += device/yu/tomato/system.prop
+
