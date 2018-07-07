@@ -234,7 +234,7 @@
     <string-array name="config_gpsParameters">
         <item>XTRA_SERVER_1=https://xtrapath1.izatcloud.net/xtra3grc.bin</item>
         <item>XTRA_SERVER_2=https://xtrapath2.izatcloud.net/xtra3grc.bin</item>
-        <item>XTRA_SERVER_3=https://xtrapath3.izatcloud.net/xtra3grc.binn</item>
+        <item>XTRA_SERVER_3=https://xtrapath3.izatcloud.net/xtra3grc.bin</item>
         <item>XTRA_VERSION_CHECK=1</item>
         <item>XTRA_CA_PATH=/system/etc/security/cacerts</item>
         <item>NTP_SERVER=asia.pool.ntp.org</item>
@@ -251,4 +251,7 @@
         <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
     </string-array>
 
+    <!-- Enable overlay for all location components. -->
+    <string name="config_networkLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
+    <string name="config_fusedLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
 </resources>
