@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
 #Dalvik
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl
+
 # Doze mode
  PRODUCT_PACKAGES += \
      YUDoze
