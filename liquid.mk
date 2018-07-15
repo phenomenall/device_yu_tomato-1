@@ -24,6 +24,10 @@ PRODUCT_NAME := liquid_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Phenomenall (venkysai)"
+export LIQUID_BUILDTYPE=RELEASE
+
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2016-05-01
