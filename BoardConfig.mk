@@ -28,6 +28,7 @@ include vendor/yu/tomato/BoardConfigVendor.mk
 
 #Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+USE_LEGACY_LOCAL_AUDIO_HAL := true
 
 #Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
