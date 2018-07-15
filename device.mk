@@ -254,5 +254,6 @@ $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
 
 #Customapps
 PRODUCT_PACKAGES +=\
-MiXplorer
+MiXplorer \
+FMRadio
 
