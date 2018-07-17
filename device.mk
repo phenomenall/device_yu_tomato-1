@@ -50,6 +50,16 @@ PRODUCT_PACKAGES += \
     camera.msm8916 \
     libmm-qcamera \
     Snap
+
+# Custom off-mode charger
+ifneq ($(WITH_CM_CHARGER),false)
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    cm_charger_res_images \
+    font_log.png \
+   libhealthd.cm
+endif
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false \
@@ -70,9 +80,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # TextClassifier smart selection model
 PRODUCT_PACKAGES += \
     textclassifier.smartselection.bundle1
-
-#Dalvik
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
