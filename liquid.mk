@@ -14,7 +14,7 @@
 
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common LiquidRemix stuff.
 $(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
@@ -26,6 +26,7 @@ PRODUCT_DEVICE := tomato
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Phenomenall (venkysai)"
+
 export LIQUID_BUILDTYPE=RELEASE
 
 # Vendor security patch level
