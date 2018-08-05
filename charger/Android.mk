@@ -52,7 +52,7 @@ include $(CLEAR_VARS)
 
 define _add-charger-image
 include $$(CLEAR_VARS)
-LOCAL_MODULE := vendor_cm_charger_$(notdir $(1))
+LOCAL_MODULE := device_yu_tomato_cm_charger_$(notdir $(1))
 LOCAL_MODULE_STEM := $(notdir $(1))
 _img_modules += $$(LOCAL_MODULE)
 LOCAL_SRC_FILES := $1
