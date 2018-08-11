@@ -37,7 +37,7 @@
 #include <utils/Errors.h>
 #include <utils/Trace.h>
 #include <gralloc_priv.h>
-#include <gui/Surface.h>
+/*#include <gui/Surface.h>*/
 
 #include <binder/Parcel.h>
 #include <binder/IServiceManager.h>

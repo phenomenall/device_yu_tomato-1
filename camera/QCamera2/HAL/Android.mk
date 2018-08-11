@@ -55,9 +55,11 @@ LOCAL_C_INCLUDES := \
         frameworks/native/libs/nativewindow/include \
         frameworks/native/libs/nativebase/include \
         frameworks/native/include/media/openmax \
-        $(call project-path-for,qcom-display)/libgralloc \
-        $(call project-path-for,qcom-display)/libqdutils \
-        $(call project-path-for,qcom-media)/libstagefrighthw \
+        hardware/qcom/display/libgralloc \
+        hardware/qcom/display/libqdutils \
+        hardware/qcom/media/libstagefrighthw \
+        hardware/qcom/media-caf/msm8916/libstagefrighthw \
+        hardware/qcom/display-caf/msm8916/libqservice \
         system/media/camera/include \
         $(LOCAL_PATH)/../../mm-image-codec/qexif \
         $(LOCAL_PATH)/../../mm-image-codec/qomx_core \
