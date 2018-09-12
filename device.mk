@@ -256,6 +256,11 @@ PRODUCT_COPY_FILES += \
              frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 
+# XiaomiDoze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+
 # Call the proprietary setup
 $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
 
