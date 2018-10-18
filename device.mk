@@ -47,7 +47,12 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    yl_btmac
+    yl_btmac \
+    libbt-vendor
+
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth@1.0-service
 
 # Camera
 PRODUCT_PACKAGES += \
